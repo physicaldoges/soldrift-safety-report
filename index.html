@@ -4,276 +4,209 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Soldrift / devbeast5775 — Reported Solana Tool Security Incident & Wallet Risk Case File</title>
-  <meta name="description" content="Evidence-based Web3 safety report documenting reported concerns around Soldrift / devbeast5775, GitHub soldrift, Solana tool safety, wallet/private-key risk, VPS/root access, developer access, payment records, and wallet-flow evidence." />
-  <meta name="keywords" content="Soldrift, devbeast5775, soldrift scam, devbeast5775 scam, GitHub soldrift, Solana developer security incident, Solana tool safety report, Web3 tool risk, crypto developer access risk, wallet risk report, private key safety, VPS root access risk, Pump.fun tool risk, Solana bundler safety, volume bot risk, Telegram developer risk, crypto scam accusation, Web3 safety archive" />
-  <meta name="robots" content="index, follow, max-image-preview:large" />
-  <meta name="theme-color" content="#0b1020" />
-  <meta property="og:title" content="Soldrift / devbeast5775 — Reported Solana Tool Security Incident" />
-  <meta property="og:description" content="Evidence-based public safety report for Solana/Web3 builders: GitHub, Telegram, wallet-flow, payment, server access, and developer-access risk documentation." />
+  <title>Soldrift / devbeast5775 Scam Accusation — Solana Tool Security Incident</title>
+  <meta name="description" content="Evidence-based public safety report for Soldrift / devbeast5775: GitHub soldrift, Telegram @devbeast5775, Solana tool security incident, wallet-flow records, developer access risk, VPS/root access concerns, and crypto scam accusation references." />
+  <meta name="keywords" content="Soldrift, devbeast5775, soldrift scam, devbeast5775 scam, Soldrift devbeast5775, GitHub soldrift, Telegram devbeast5775, Solana scam accusation, Solana tool security incident, Solana developer scam report, Web3 tool safety report, crypto developer access risk, wallet flow evidence, private key risk, VPS root access, Pump.fun tool risk, Solana bundler safety, volume bot risk, Raydium bot risk, bubblemap bypass, crypto scam accusation, Bitcointalk soldrift, Reddit CryptoScams soldrift, Web3 safety archive" />
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+  <meta name="theme-color" content="#08111f" />
+  <link rel="canonical" href="https://physicaldoges.github.io/soldrift-safety-report/" />
+  <link rel="alternate" href="https://physicaldoges.github.io/soldrift-safety-report/soldrift-devbeast5775/" />
+  <meta property="og:title" content="Soldrift / devbeast5775 Scam Accusation — Solana Tool Security Incident" />
+  <meta property="og:description" content="Public safety report documenting alleged Soldrift / @devbeast5775 Solana/Web3 tool risks, GitHub soldrift references, wallet-flow evidence, server access concerns, and developer-access risk." />
   <meta property="og:type" content="article" />
   <meta property="og:url" content="https://physicaldoges.github.io/soldrift-safety-report/" />
   <meta name="twitter:card" content="summary_large_image" />
-  <style>
-    :root{
-      --bg:#070a12;
-      --panel:#0e1424;
-      --panel2:#111a2d;
-      --card:#121b2e;
-      --line:rgba(148,163,184,.22);
-      --text:#e6edf7;
-      --muted:#a5b4c8;
-      --dim:#74839a;
-      --accent:#7dd3fc;
-      --accent2:#a78bfa;
-      --danger:#fb7185;
-      --warn:#fbbf24;
-      --ok:#34d399;
-      --ink:#020617;
-      --shadow: 0 24px 90px rgba(0,0,0,.42);
-      --radius:22px;
-    }
-    *{box-sizing:border-box}
-    html{scroll-behavior:smooth}
-    body{
-      margin:0;
-      background:
-        radial-gradient(circle at 12% 8%, rgba(125,211,252,.18), transparent 30%),
-        radial-gradient(circle at 82% 14%, rgba(167,139,250,.16), transparent 32%),
-        radial-gradient(circle at 50% 120%, rgba(251,113,133,.10), transparent 38%),
-        linear-gradient(180deg, #060914 0%, #090d18 45%, #070a12 100%);
-      color:var(--text);
-      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
-      line-height:1.58;
-    }
-    a{color:var(--accent);text-decoration:none}
-    a:hover{text-decoration:underline}
-    .wrap{max-width:1180px;margin:0 auto;padding:28px 18px 70px}
-    .topbar{
-      position:sticky;top:0;z-index:10;backdrop-filter:blur(18px);
-      background:rgba(7,10,18,.72);border-bottom:1px solid var(--line)
-    }
-    .nav{max-width:1180px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:18px;padding:12px 18px}
-    .brand{display:flex;align-items:center;gap:10px;font-weight:800;letter-spacing:.04em;text-transform:uppercase}
-    .mark{width:34px;height:34px;border-radius:12px;display:grid;place-items:center;background:linear-gradient(135deg,var(--accent),var(--accent2));color:#06111f;font-weight:950;box-shadow:0 0 28px rgba(125,211,252,.25)}
-    .links{display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end}
-    .links a{font-size:13px;color:#cbd5e1;padding:8px 10px;border:1px solid transparent;border-radius:999px}
-    .links a:hover{border-color:var(--line);background:rgba(255,255,255,.04);text-decoration:none}
-    .hero{padding:58px 0 34px;display:grid;grid-template-columns:1.25fr .75fr;gap:26px;align-items:stretch}
-    .hero-card,.side-card,.section,.notice,.evidence-card,.timeline-card{border:1px solid var(--line);background:linear-gradient(180deg,rgba(18,27,46,.92),rgba(13,20,35,.94));border-radius:var(--radius);box-shadow:var(--shadow)}
-    .hero-card{padding:34px;position:relative;overflow:hidden}
-    .hero-card:before{content:"";position:absolute;inset:-40% -20% auto auto;width:360px;height:360px;border-radius:50%;background:radial-gradient(circle,rgba(251,113,133,.16),transparent 65%)}
-    .eyebrow{display:inline-flex;align-items:center;gap:8px;border:1px solid rgba(251,113,133,.42);color:#fecdd3;background:rgba(251,113,133,.08);border-radius:999px;padding:7px 11px;font-size:12px;font-weight:800;letter-spacing:.06em;text-transform:uppercase}
-    h1{font-size:clamp(32px,6vw,66px);line-height:.98;margin:20px 0 18px;letter-spacing:-.055em}
-    .lead{font-size:18px;color:#cbd5e1;max-width:820px;margin:0 0 22px}
-    .hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:22px}
-    .btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;border-radius:14px;padding:12px 15px;font-weight:800;border:1px solid var(--line);background:rgba(255,255,255,.05);color:var(--text)}
-    .btn:hover{text-decoration:none;background:rgba(255,255,255,.08)}
-    .btn.primary{background:linear-gradient(135deg,var(--accent),var(--accent2));color:#06111f;border:none}
-    .side-card{padding:24px;display:flex;flex-direction:column;gap:15px}
-    .risk-meter{height:12px;border-radius:999px;background:linear-gradient(90deg,var(--ok),var(--warn),var(--danger));position:relative;overflow:hidden}
-    .risk-meter:after{content:"";position:absolute;right:12%;top:-5px;width:4px;height:22px;background:white;border-radius:10px;box-shadow:0 0 0 4px rgba(255,255,255,.18)}
-    .status-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
-    .stat{padding:13px;border:1px solid var(--line);border-radius:16px;background:rgba(2,6,23,.22)}
-    .stat b{display:block;font-size:20px;line-height:1;color:#fff}.stat span{font-size:12px;color:var(--muted)}
-    .tagrow{display:flex;gap:8px;flex-wrap:wrap;margin:18px 0 0}
-    .tag{font-size:12px;color:#dbeafe;background:rgba(125,211,252,.08);border:1px solid rgba(125,211,252,.25);border-radius:999px;padding:7px 9px}
-    .section{padding:26px;margin:20px 0}
-    .section h2{font-size:28px;letter-spacing:-.03em;margin:0 0 8px}.section h3{font-size:18px;margin:22px 0 8px}.muted{color:var(--muted)}.dim{color:var(--dim)}
-    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.grid.two{grid-template-columns:repeat(2,1fr)}
-    .box{border:1px solid var(--line);border-radius:18px;background:rgba(2,6,23,.23);padding:18px}
-    .box strong{color:#fff}.box .label{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;font-weight:800}.box .value{font-size:16px;word-break:break-all;margin-top:6px}
-    .danger{border-color:rgba(251,113,133,.35);background:rgba(251,113,133,.08)}.warn{border-color:rgba(251,191,36,.35);background:rgba(251,191,36,.08)}.ok{border-color:rgba(52,211,153,.3);background:rgba(52,211,153,.07)}
-    .evidence-list{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-top:16px}
-    .evidence-card{padding:18px;box-shadow:none}.evidence-card h3{margin:0 0 8px}.evidence-card p{margin:0 0 12px;color:var(--muted)}
-    .timeline{position:relative;margin-top:18px}.timeline:before{content:"";position:absolute;left:18px;top:0;bottom:0;width:2px;background:linear-gradient(var(--accent),rgba(167,139,250,.25))}
-    .timeline-card{box-shadow:none;margin:0 0 14px 46px;padding:18px;position:relative}.timeline-card:before{content:"";position:absolute;left:-37px;top:20px;width:13px;height:13px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 6px rgba(125,211,252,.12)}
-    .time{font-size:12px;color:var(--accent);font-weight:900;letter-spacing:.08em;text-transform:uppercase}.timeline-card h3{margin:5px 0 5px}.timeline-card p{margin:0;color:var(--muted)}
-    .checklist{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.check{display:flex;gap:12px;padding:14px;border:1px solid var(--line);border-radius:16px;background:rgba(255,255,255,.03)}
-    .num{min-width:28px;height:28px;border-radius:10px;display:grid;place-items:center;background:rgba(125,211,252,.12);color:var(--accent);font-weight:900}
-    .search-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}.keyword{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:13px;border:1px solid var(--line);border-radius:12px;padding:10px;background:rgba(2,6,23,.35);color:#dbeafe;word-break:break-all}
-    .callout{border-left:4px solid var(--accent);padding:16px 18px;background:rgba(125,211,252,.06);border-radius:14px;margin:16px 0;color:#dbeafe}
-    .footer{padding:26px 0;color:var(--dim);font-size:13px;text-align:center}.footer .mini{margin-top:8px}
-    .pill{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);border-radius:999px;padding:6px 9px;color:var(--muted);font-size:12px;margin:4px}
-    .copy{cursor:pointer}.copy:hover{border-color:var(--accent);color:#fff}
-    .print-note{display:none}
-    @media(max-width:900px){.hero{grid-template-columns:1fr}.grid,.grid.two,.evidence-list,.checklist,.search-grid{grid-template-columns:1fr}.links{display:none}.hero-card{padding:24px}.section{padding:20px}.status-grid{grid-template-columns:1fr 1fr}}
-    @media print{body{background:white;color:#111}.topbar,.hero-actions,.footer{display:none}.hero,.section{display:block}.hero-card,.side-card,.section,.box,.evidence-card,.timeline-card{box-shadow:none;background:white;border-color:#ddd;color:#111}.muted,.dim{color:#444}.print-note{display:block;color:#555}}
-  </style>
   <script type="application/ld+json">
   {
     "@context":"https://schema.org",
-    "@type":"Report",
-    "name":"Soldrift / devbeast5775 — Reported Solana Tool Security Incident & Wallet Risk Case File",
-    "description":"Evidence-based public safety report documenting reported concerns around Soldrift / devbeast5775, GitHub soldrift, Solana/Web3 tooling, wallet/private-key safety, VPS/root access, developer access, and wallet-flow evidence.",
-    "about":["Soldrift","devbeast5775","GitHub soldrift","Solana tool safety","Web3 developer access risk","wallet risk report"],
-    "keywords":"Soldrift, devbeast5775, Solana developer security incident, Web3 tool safety, wallet risk, GitHub soldrift, Telegram developer risk",
-    "isAccessibleForFree":true
+    "@type":"Article",
+    "headline":"Soldrift / devbeast5775 Scam Accusation — Solana Tool Security Incident",
+    "description":"Evidence-based public safety report for GitHub identity soldrift connected with Telegram handle @devbeast5775 and a reported Solana/Web3 tool security incident involving payment records, wallet-flow evidence, developer access risk, and GitHub repository concerns.",
+    "author":{"@type":"Organization","name":"Web3 Tool Safety Reports"},
+    "publisher":{"@type":"Organization","name":"Web3 Tool Safety Reports"},
+    "datePublished":"2026-06-06T00:00:00Z",
+    "dateModified":"2026-06-08T00:00:00Z",
+    "mainEntityOfPage":"https://physicaldoges.github.io/soldrift-safety-report/",
+    "about":["Soldrift","devbeast5775","GitHub soldrift","Telegram @devbeast5775","Solana tool safety","Web3 developer access risk","wallet-flow evidence","crypto scam accusation"],
+    "sameAs":[
+      "https://github.com/physicaldoges/soldrift-scammer",
+      "https://bitcointalk.org/index.php?topic=5585062.0",
+      "https://medium.com/@voidgodsol/soldrift-devbeast5775-public-safety-notice"
+    ]
   }
   </script>
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"FAQPage",
+    "mainEntity":[
+      {"@type":"Question","name":"Who does this Soldrift / devbeast5775 report refer to?","acceptedAnswer":{"@type":"Answer","text":"This report refers only to the GitHub identity soldrift connected with Telegram handle @devbeast5775 and the Solana/Web3 development incident described here. It does not refer to unrelated businesses, brands, or individuals using similar names such as Soldrift or Sol Drift."}},
+      {"@type":"Question","name":"Is this report a call for harassment or retaliation?","acceptedAnswer":{"@type":"Answer","text":"No. This page is for evidence preservation, user protection, and official platform reporting only. It does not encourage harassment, threats, doxxing, brigading, spam, or personal attacks."}},
+      {"@type":"Question","name":"What should Solana builders verify before hiring a Telegram developer?","acceptedAnswer":{"@type":"Answer","text":"Search the developer name, handles, GitHub, wallet address, and tool name. Never share private keys or seed phrases. Use disposable wallets and isolated servers, audit code and outbound network calls, and rotate all credentials after developer access."}}
+    ]
+  }
+  </script>
+  <style>
+    :root{
+      --bg:#070b14;--bg2:#0b1220;--panel:#0f172a;--panel2:#121c32;--card:#152136;--line:rgba(148,163,184,.22);
+      --text:#e6edf7;--muted:#a7b4c8;--dim:#74839a;--accent:#38bdf8;--violet:#a78bfa;--danger:#fb7185;--warn:#fbbf24;--ok:#34d399;--ink:#020617;
+      --shadow:0 28px 90px rgba(0,0,0,.44);--radius:24px;--radius2:16px;
+    }
+    *{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;background:radial-gradient(circle at 14% 8%,rgba(56,189,248,.17),transparent 31%),radial-gradient(circle at 86% 12%,rgba(167,139,250,.17),transparent 33%),radial-gradient(circle at 50% 120%,rgba(251,113,133,.10),transparent 40%),linear-gradient(180deg,#050914 0%,#09101d 46%,#070b14 100%);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;line-height:1.58} a{color:var(--accent);text-decoration:none} a:hover{text-decoration:underline}.topbar{position:sticky;top:0;z-index:20;background:rgba(7,11,20,.76);backdrop-filter:blur(18px);border-bottom:1px solid var(--line)}.nav{max-width:1220px;margin:0 auto;padding:13px 18px;display:flex;align-items:center;justify-content:space-between;gap:18px}.brand{display:flex;align-items:center;gap:10px;font-weight:900;letter-spacing:.04em;text-transform:uppercase}.mark{width:36px;height:36px;border-radius:13px;display:grid;place-items:center;background:linear-gradient(135deg,var(--accent),var(--violet));color:#06111f;font-weight:950;box-shadow:0 0 28px rgba(56,189,248,.25)}.links{display:flex;flex-wrap:wrap;gap:8px;justify-content:flex-end}.links a{font-size:13px;color:#cbd5e1;padding:8px 10px;border:1px solid transparent;border-radius:999px}.links a:hover{border-color:var(--line);background:rgba(255,255,255,.05);text-decoration:none}.wrap{max-width:1220px;margin:0 auto;padding:28px 18px 76px}.hero{display:grid;grid-template-columns:1.18fr .82fr;gap:26px;padding:54px 0 28px}.card,.section,.side-card,.evidence-card,.timeline-card{border:1px solid var(--line);background:linear-gradient(180deg,rgba(18,31,54,.94),rgba(12,20,35,.95));border-radius:var(--radius);box-shadow:var(--shadow)}.hero-card{padding:36px;position:relative;overflow:hidden}.hero-card:before{content:"";position:absolute;right:-130px;top:-130px;width:390px;height:390px;border-radius:50%;background:radial-gradient(circle,rgba(251,113,133,.19),transparent 66%)}.eyebrow{display:inline-flex;align-items:center;gap:8px;border:1px solid rgba(251,113,133,.48);color:#fecdd3;background:rgba(251,113,133,.09);border-radius:999px;padding:7px 12px;font-size:12px;font-weight:900;letter-spacing:.065em;text-transform:uppercase}.h1{font-size:clamp(34px,6vw,68px);line-height:.96;margin:20px 0 18px;letter-spacing:-.058em}.lead{font-size:18px;color:#cbd5e1;max-width:860px;margin:0 0 22px}.strongline{font-size:16px;color:#e2e8f0;border-left:3px solid var(--danger);padding-left:14px;margin:18px 0 0}.btns{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;border-radius:14px;padding:12px 15px;font-weight:850;border:1px solid var(--line);background:rgba(255,255,255,.055);color:var(--text)}.btn.primary{background:linear-gradient(135deg,var(--danger),var(--violet));border:0;color:#fff}.btn:hover{transform:translateY(-1px);text-decoration:none}.side-card{padding:22px}.score{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:14px}.metric{border:1px solid var(--line);border-radius:18px;background:rgba(255,255,255,.035);padding:14px}.metric b{display:block;font-size:22px;color:#fff}.metric span{display:block;font-size:12px;color:var(--muted);margin-top:3px}.label{font-size:11px;text-transform:uppercase;letter-spacing:.12em;color:var(--dim);font-weight:900}.notice{border:1px solid rgba(251,191,36,.35);background:rgba(251,191,36,.08);border-radius:18px;padding:14px;color:#fde68a;margin-top:16px}.tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}.pill{border:1px solid var(--line);background:rgba(255,255,255,.055);border-radius:999px;padding:7px 10px;color:#dbeafe;font-size:13px}.section{padding:26px;margin-top:24px}.section h2{font-size:clamp(25px,3vw,38px);margin:0 0 12px;letter-spacing:-.035em}.muted{color:var(--muted)}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.grid2{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}.box{border:1px solid var(--line);background:rgba(255,255,255,.04);border-radius:18px;padding:17px}.box h3{margin:6px 0 8px;font-size:18px}.danger{color:#fecdd3}.warn{color:#fde68a}.ok{color:#bbf7d0}.identity-table{width:100%;border-collapse:collapse;overflow:hidden;border-radius:18px;border:1px solid var(--line);margin-top:14px}.identity-table th,.identity-table td{padding:13px 14px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}.identity-table th{width:230px;background:rgba(255,255,255,.04);color:#cbd5e1}.identity-table tr:last-child th,.identity-table tr:last-child td{border-bottom:0}.copy{cursor:pointer;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#c4b5fd;word-break:break-all}.evidence-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}.evidence-card{padding:18px;box-shadow:none}.evidence-card h3{margin:8px 0 8px}.timeline{position:relative;padding-left:16px;margin-top:14px}.timeline:before{content:"";position:absolute;top:0;bottom:0;left:8px;width:2px;background:linear-gradient(var(--accent),var(--danger))}.timeline-card{box-shadow:none;margin:0 0 13px 18px;padding:16px;position:relative}.timeline-card:before{content:"";position:absolute;left:-27px;top:18px;width:14px;height:14px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 5px rgba(56,189,248,.12)}.time{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#93c5fd;font-size:13px}.search-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}.keyword{border:1px solid rgba(56,189,248,.22);background:rgba(56,189,248,.065);border-radius:14px;padding:10px 11px;color:#dff6ff;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;font-size:13px;word-break:break-word}.checklist{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.check{display:flex;gap:12px;align-items:flex-start;border:1px solid var(--line);border-radius:18px;padding:14px;background:rgba(255,255,255,.04)}.num{flex:0 0 34px;width:34px;height:34px;border-radius:12px;display:grid;place-items:center;background:rgba(56,189,248,.13);color:#bae6fd;font-weight:900}.anchorbox{border:1px solid rgba(52,211,153,.32);background:rgba(52,211,153,.07);border-radius:18px;padding:16px;margin-top:14px}.footer{color:var(--dim);font-size:13px;text-align:center;padding:40px 0 0}.mini{font-size:12px;color:#64748b;margin-top:7px}.toc{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:16px}.toc a{display:block;border:1px solid var(--line);border-radius:14px;padding:10px;background:rgba(255,255,255,.035);color:#dbeafe;font-size:13px}.toc a:hover{background:rgba(255,255,255,.07);text-decoration:none}.split{display:grid;grid-template-columns:1fr 1fr;gap:14px}.callout{border-left:3px solid var(--accent);padding:12px 14px;background:rgba(56,189,248,.065);border-radius:0 14px 14px 0;color:#dbeafe;margin:12px 0}.redcallout{border-left-color:var(--danger);background:rgba(251,113,133,.075);color:#ffe4e6}@media(max-width:900px){.hero,.grid,.grid2,.evidence-grid,.checklist,.split{grid-template-columns:1fr}.search-grid,.toc{grid-template-columns:1fr 1fr}.links{display:none}.hero-card{padding:26px}.identity-table th{width:150px}}@media(max-width:560px){.wrap{padding:20px 14px 60px}.hero{padding-top:34px}.search-grid,.toc,.score{grid-template-columns:1fr}.h1{font-size:37px}.section{padding:20px}.identity-table th,.identity-table td{display:block;width:100%}.identity-table th{border-bottom:0;padding-bottom:4px}.identity-table td{padding-top:4px}}
+  </style>
 </head>
 <body>
   <header class="topbar">
-    <nav class="nav" aria-label="Main navigation">
-      <div class="brand"><div class="mark">W3</div><span>Web3 Tool Safety Reports</span></div>
+    <nav class="nav">
+      <div class="brand"><span class="mark">W3</span><span>Web3 Tool Safety Reports</span></div>
       <div class="links">
-        <a href="#case">Case File</a>
-        <a href="#evidence">Evidence</a>
-        <a href="#timeline">Timeline</a>
-        <a href="#checklist">Checklist</a>
-        <a href="#updates">Updates</a>
+        <a href="#case">Case File</a><a href="#evidence">Evidence</a><a href="#timeline">Timeline</a><a href="#search">Search Terms</a><a href="#checklist">Checklist</a><a href="#updates">Updates</a>
       </div>
     </nav>
   </header>
 
   <main class="wrap">
-    <section class="hero" id="top">
-      <div class="hero-card">
-        <span class="eyebrow">Evidence-based Web3 Safety Archive</span>
-        <h1>Soldrift / devbeast5775 Reported Solana Tool Security Incident</h1>
-        <p class="lead">A public case file for Solana and Web3 builders documenting reported concerns involving the GitHub identity <b>soldrift</b>, Telegram handle <b>@devbeast5775</b>, developer-access risk, wallet/private-key safety, VPS/root access, payment records, and wallet-flow evidence.</p>
-        <div class="callout"><b>Important:</b> This report is written for prevention, verification, and user protection. Claims are presented as alleged, reported, suspected, or under review unless directly supported by public evidence.</div>
-        <div class="hero-actions">
-          <a class="btn primary" href="#case">View Case File</a>
-          <a class="btn" href="#evidence">Open Evidence Archive</a>
-          <a class="btn" href="#checklist">Read Safety Checklist</a>
-        </div>
-        <div class="tagrow" aria-label="Search terms">
-          <span class="tag">Soldrift</span><span class="tag">@devbeast5775</span><span class="tag">GitHub soldrift</span><span class="tag">Solana Tool Safety</span><span class="tag">Wallet Risk</span><span class="tag">Developer Access</span>
+    <section class="hero">
+      <div class="hero-card card">
+        <span class="eyebrow">Scam Accusation · Public Safety Notice · Evidence-Based</span>
+        <h1 class="h1">Soldrift / devbeast5775 — Reported Solana Tool Scam & Developer Access Risk</h1>
+        <p class="lead">This case file documents alleged concerns around the GitHub identity <b>soldrift</b> connected with Telegram handle <b>@devbeast5775</b>, including Solana/Web3 tool safety, wallet/private-key handling risk, VPS/root access concerns, GitHub/source access, payment records, wallet-flow evidence, and suspicious developer-access patterns.</p>
+        <p class="strongline">This page uses <b>reported</b>, <b>alleged</b>, <b>appears</b>, and <b>under review</b> wording unless a point is directly supported by public evidence. The purpose is prevention, verification, official reporting, and user protection.</p>
+        <div class="btns"><a class="btn primary" href="#evidence">Open Evidence Index</a><a class="btn" href="#search">Search Keywords</a><a class="btn" href="#checklist">Safety Checklist</a></div>
+        <div class="toc">
+          <a href="#identity">Known Identifiers</a><a href="#risk-pattern">Risk Pattern</a><a href="#reappearance">Reappearance Pattern</a><a href="#policy">No Harassment Policy</a>
         </div>
       </div>
       <aside class="side-card">
-        <div>
-          <div class="eyebrow">Case Snapshot</div>
-          <h2 style="margin:15px 0 8px;line-height:1.1">Reported Risk Level: High Review Priority</h2>
-          <p class="muted">Developer access, payment flow, GitHub/source access, Telegram sales identity, wallet/key-handling concerns, and VPS/root access concerns are documented for public review.</p>
+        <div class="label">Case Snapshot</div>
+        <h2 style="margin:6px 0 8px">Soldrift / @devbeast5775</h2>
+        <p class="muted">Public safety report for Solana builders, traders, and project owners who may search a developer before sending funds, private keys, API keys, wallet access, source-code access, or VPS/root access.</p>
+        <div class="score">
+          <div class="metric"><b>GitHub</b><span>soldrift identity</span></div>
+          <div class="metric"><b>Telegram</b><span>@devbeast5775</span></div>
+          <div class="metric"><b>Solana</b><span>tool / bot risk</span></div>
+          <div class="metric"><b>UTC</b><span>timeline standard</span></div>
         </div>
-        <div class="risk-meter" aria-label="Risk meter"></div>
-        <div class="status-grid">
-          <div class="stat"><b>01</b><span>Primary Handle</span></div>
-          <div class="stat"><b>02</b><span>Wallet IDs</span></div>
-          <div class="stat"><b>85</b><span>Repo count shown in preserved GitHub screenshot</span></div>
-          <div class="stat"><b>UTC</b><span>Timeline standard</span></div>
-        </div>
+        <div class="notice">Clarification: this report refers only to the GitHub identity “soldrift” connected with Telegram handle @devbeast5775 and the Solana/Web3 incident described here. It does not refer to unrelated businesses, brands, or individuals using similar names such as Soldrift or Sol Drift.</div>
       </aside>
     </section>
 
     <section class="section" id="case">
-      <h2>Case File: Soldrift / devbeast5775</h2>
-      <p class="muted">This case file documents alleged and reported concerns around Soldrift-linked Solana/Web3 tooling, including wallet/private-key safety, VPS/root access, GitHub/source access, suspicious code review concerns, and developer-access risk.</p>
-      <div class="grid">
-        <div class="box danger"><div class="label">Subject</div><div class="value">Soldrift</div></div>
-        <div class="box danger"><div class="label">Reported Telegram Handle</div><div class="value">@devbeast5775</div></div>
-        <div class="box warn"><div class="label">GitHub Identity</div><div class="value">github.com/soldrift</div></div>
-        <div class="box warn"><div class="label">Category</div><div class="value">Solana / Web3 tooling, memecoin launch, bundler or trading-tool context</div></div>
-        <div class="box"><div class="label">Status</div><div class="value">Alleged / reported / under review</div></div>
-        <div class="box"><div class="label">Scope</div><div class="value">This report refers only to GitHub soldrift connected with Telegram @devbeast5775, not unrelated Soldrift or Sol Drift businesses.</div></div>
+      <h2>Executive Summary</h2>
+      <div class="split">
+        <div>
+          <p>This report concerns a <b>reported Solana/Web3 developer security incident</b> involving the identity Soldrift / devbeast5775. The case includes alleged tool delivery/modification, payment and wallet-flow records, developer or VPS access concerns, GitHub/source access concerns, and operational-security concerns around wallet/private-key handling.</p>
+          <p>The report is designed to make searches such as <b>soldrift scam</b>, <b>devbeast5775 scam</b>, <b>soldrift GitHub Solana</b>, <b>Soldrift devbeast5775</b>, and <b>Solana developer security incident</b> lead to a neutral, evidence-based reference instead of scattered claims.</p>
+        </div>
+        <div class="box">
+          <div class="label">Primary Search Target</div>
+          <h3>Soldrift + devbeast5775 + Solana + GitHub + scam accusation</h3>
+          <p class="muted">The page intentionally repeats exact-match identifiers so search engines connect the report to the correct GitHub/Telegram/Web3 case rather than unrelated Soldrift or Sol Drift brands.</p>
+        </div>
       </div>
+    </section>
 
-      <h3>Executive Summary</h3>
-      <p>The reported identity presented itself as a Solana/Web3 tool developer. After payment, server/VPS access, and development work were involved, the delivered or modified project raised serious concerns around wallet/private-key handling, backend behavior, source-code access, server access, and operational security. Public evidence and private evidence archives were preserved before public reporting.</p>
-      <p>This report does not publish private keys, seed phrases, passwords, API keys, RPC keys, SSH keys, real-world personal information, unrelated personal discussion, or unrelated private accounts.</p>
+    <section class="section" id="identity">
+      <h2>Known Identifiers</h2>
+      <table class="identity-table">
+        <tr><th>Subject / name used</th><td>Soldrift</td></tr>
+        <tr><th>Reported Telegram handle</th><td>@devbeast5775</td></tr>
+        <tr><th>GitHub profile</th><td><a href="https://github.com/soldrift" target="_blank" rel="noopener">github.com/soldrift</a></td></tr>
+        <tr><th>GitHub username</th><td>soldrift</td></tr>
+        <tr><th>Related field</th><td>Solana / Web3 tooling, memecoin launch tools, bot tooling, bundler/volume-related tool categories, Pump.fun or Raydium-related tooling categories</td></tr>
+        <tr><th>Primary wallet identifier</th><td class="copy" data-copy="E8RcJDs3SaBP2udWy6bD7576zJ3WitfbVh16vgeqoAgi">E8RcJDs3SaBP2udWy6bD7576zJ3WitfbVh16vgeqoAgi</td></tr>
+        <tr><th>Related wallet identifier</th><td class="copy" data-copy="5cZWa1KZQnMPeXTHPRF8JSEPMhzRaHPehAoG1rPtiHGc">5cZWa1KZQnMPeXTHPRF8JSEPMhzRaHPehAoG1rPtiHGc</td></tr>
+      </table>
+    </section>
+
+    <section class="section" id="risk-pattern">
+      <h2>Reported Risk Pattern</h2>
+      <p class="muted">This section explains how the alleged pattern is understood from the available evidence. It does not claim GitHub, Telegram, any exchange, or any unrelated third party is responsible.</p>
+      <div class="grid">
+        <div class="box"><div class="label danger">Risk 01</div><h3>Wallet / private-key handling risk</h3><p class="muted">Solana tools may require wallets, private keys, or generated wallet files. Unknown tools must be treated as high risk until audited.</p></div>
+        <div class="box"><div class="label danger">Risk 02</div><h3>Developer access and VPS/root access risk</h3><p class="muted">Granting server/root access to an unknown developer can expose source code, secrets, API keys, SSH keys, logs, and operational workflows.</p></div>
+        <div class="box"><div class="label danger">Risk 03</div><h3>GitHub/source access concerns</h3><p class="muted">Public, private, copied, forked, mirrored, or deleted repositories may preserve evidence or hide future reappearance patterns.</p></div>
+        <div class="box"><div class="label warn">Risk 04</div><h3>Payment and wallet-flow evidence</h3><p class="muted">On-chain records may show payment or wallet-flow activity. Screenshots must be explained as transaction evidence only, not as proof of unrelated party involvement.</p></div>
+        <div class="box"><div class="label warn">Risk 05</div><h3>Backend behavior and hidden calls</h3><p class="muted">Unknown tools should be checked for outbound network calls, hidden endpoints, wallet storage, encoded scripts, eval/new Function, webhooks, and credential exfiltration risk.</p></div>
+        <div class="box"><div class="label ok">Risk 06</div><h3>Containment actions</h3><p class="muted">Evidence preservation, SSH cleanup, API/RPC rotation, wallet migration, and platform reports reduce future risk and help public verification.</p></div>
+      </div>
     </section>
 
     <section class="section" id="evidence">
-      <h2>Evidence Archive</h2>
-      <p class="muted">Public references and supporting material. Screenshots and logs should be redacted before publication. Evidence is described using neutral terms to avoid harassment, threats, doxxing, spam, or brigading.</p>
-      <div class="evidence-list">
-        <article class="evidence-card">
-          <h3>GitHub Evidence Repository</h3>
-          <p>Public reference repository created to preserve safety notes and case references related to alleged Soldrift-linked Solana tooling risks.</p>
-          <a href="https://github.com/physicaldoges/soldrift-scammer" target="_blank" rel="noopener">github.com/physicaldoges/soldrift-scammer</a>
-        </article>
-        <article class="evidence-card">
-          <h3>Medium Public Safety Notice</h3>
-          <p>Long-form public notice documenting alleged security concerns, user safety notes, and Web3 development risk context.</p>
-          <a href="https://medium.com/@voidgodsol/soldrift-devbeast5775-public-safety-notice" target="_blank" rel="noopener">medium.com/@voidgodsol/soldrift-devbeast5775-public-safety-notice</a>
-        </article>
-        <article class="evidence-card">
-          <h3>Bitcointalk Report Thread</h3>
-          <p>Forum thread preserving a public report for crypto community review and search visibility.</p>
-          <a href="https://bitcointalk.org/index.php?topic=5585062.0" target="_blank" rel="noopener">bitcointalk.org/index.php?topic=5585062.0</a>
-        </article>
-        <article class="evidence-card">
-          <h3>Reported Telegram Handle</h3>
-          <p>Reported handle: <b>@devbeast5775</b>. Direct Telegram links are intentionally omitted to reduce unwanted contact and keep the page focused on evidence-based documentation.</p>
-          <span class="pill">No harassment</span><span class="pill">No doxxing</span><span class="pill">Evidence only</span>
-        </article>
-      </div>
-
-      <h3>Known Identifiers for Search & Verification</h3>
-      <div class="grid two">
-        <div class="box"><div class="label">Primary wallet</div><div class="value copy" data-copy="E8RcJDs3SaBP2udWy6bD7576zJ3WitfbVh16vgeqoAgi">E8RcJDs3SaBP2udWy6bD7576zJ3WitfbVh16vgeqoAgi</div></div>
-        <div class="box"><div class="label">Related wallet</div><div class="value copy" data-copy="5cZWa1KZQnMPeXTHPRF8JSEPMhzRaHPehAoG1rPtiHGc">5cZWa1KZQnMPeXTHPRF8JSEPMhzRaHPehAoG1rPtiHGc</div></div>
-      </div>
-      <div class="callout"><b>Verification rule:</b> A future alias should not be treated as connected unless there is evidence such as matching wallets, copied repositories, identical README phrases, similar code structure, repeated sales language, matching Telegram/GitHub links, or repeated server-access and wallet-access patterns.</div>
-    </section>
-
-    <section class="section" id="risk">
-      <h2>Reported Risk Pattern</h2>
-      <div class="grid">
-        <div class="box danger"><strong>Wallet / Private-Key Risk</strong><p class="muted">Unknown tools can expose or store private keys, generated wallets, seed material, or wallet data in unsafe locations.</p></div>
-        <div class="box danger"><strong>VPS / Root Access Risk</strong><p class="muted">Granting root or developer access can expose source code, server credentials, wallet files, logs, SSH keys, and API secrets.</p></div>
-        <div class="box warn"><strong>GitHub / Source Access Risk</strong><p class="muted">Code copied, modified, deleted, privatized, or moved across accounts can make evidence preservation difficult.</p></div>
-        <div class="box warn"><strong>Backend Behavior Concerns</strong><p class="muted">Outbound calls, hidden endpoints, wallet storage, webhook behavior, and encoded code should be reviewed before funds are used.</p></div>
-        <div class="box"><strong>Telegram Sales Risk</strong><p class="muted">Telegram sellers are not automatically verified developers. Identity, code, wallets, and references must be checked independently.</p></div>
-        <div class="box"><strong>Post-Report Deletion Risk</strong><p class="muted">Chats, repos, and public profiles may disappear after reporting. Archive evidence before links are removed or accounts become unavailable.</p></div>
+      <h2>Evidence Index</h2>
+      <p class="muted">Public references and supporting material. Screenshots, logs, and code excerpts should be redacted before publication. Private keys, seed phrases, passwords, API keys, server credentials, and unrelated private messages must not be published.</p>
+      <div class="evidence-grid">
+        <div class="evidence-card"><div class="label">GitHub Evidence Repository</div><h3>physicaldoges / soldrift-scammer</h3><p class="muted">Public reference repository created to preserve safety notes and case references related to alleged Soldrift-linked tooling risks.</p><a href="https://github.com/physicaldoges/soldrift-scammer" target="_blank" rel="noopener">github.com/physicaldoges/soldrift-scammer</a></div>
+        <div class="evidence-card"><div class="label">Bitcointalk Report Thread</div><h3>Scam Accusation thread</h3><p class="muted">Forum record preserving a public report for crypto-community review and search visibility.</p><a href="https://bitcointalk.org/index.php?topic=5585062.0" target="_blank" rel="noopener">bitcointalk.org/index.php?topic=5585062.0</a></div>
+        <div class="evidence-card"><div class="label">Medium Public Safety Notice</div><h3>Long-form safety article</h3><p class="muted">Public article documenting alleged security concerns, user safety notes, and Web3 development risk context.</p><a href="https://medium.com/@voidgodsol/soldrift-devbeast5775-public-safety-notice" target="_blank" rel="noopener">medium.com/@voidgodsol/soldrift-devbeast5775-public-safety-notice</a></div>
+        <div class="evidence-card"><div class="label">Reported Telegram Handle</div><h3>@devbeast5775</h3><p class="muted">Direct Telegram URLs are intentionally minimized to reduce spam/harassment risk. The handle is included for identifier verification only.</p></div>
+        <div class="evidence-card"><div class="label">GitHub Profile Status</div><h3>github.com/soldrift</h3><p class="muted">The profile was reported as previously visible from the reporter side and later appearing unavailable/404 from the reporter side. GitHub’s internal enforcement reason is not known.</p></div>
+        <div class="evidence-card"><div class="label">On-chain Wallet Flow</div><h3>Payment / wallet identifiers</h3><p class="muted">Wallet identifiers and transaction screenshots may be used for review. This page does not claim any unrelated exchange or third party shown in explorer screenshots is responsible.</p></div>
       </div>
     </section>
 
     <section class="section" id="timeline">
       <h2>UTC Timeline</h2>
-      <p class="muted">Placeholder timestamps should be replaced with exact UTC times as evidence is reviewed. Use UTC only for consistency.</p>
+      <p class="muted">Use UTC timestamps only. Replace placeholder entries with exact UTC evidence timestamps as screenshots, logs, exports, and TX records are reviewed.</p>
       <div class="timeline">
-        <article class="timeline-card"><div class="time">2026-06-01 05:30 UTC</div><h3>Initial contact or tool discussion</h3><p>Evidence may include chat screenshots, public profile references, or payment discussion records.</p></article>
-        <article class="timeline-card"><div class="time">2026-06-01 07:40 UTC</div><h3>VPS/root or developer access concern</h3><p>Evidence may include server access discussion, SSH records, or GitHub/source access records.</p></article>
-        <article class="timeline-card"><div class="time">2026-06-01 09:20 UTC</div><h3>Tool upload, file changes, or code review event</h3><p>Evidence may include repository paths, file modification timestamps, code snippets, or logs.</p></article>
-        <article class="timeline-card"><div class="time">2026-06-01 11:30 UTC</div><h3>Security rotation and containment</h3><p>API/RPC key rotation, wallet migration, SSH key removal, password rotation, or VPS hardening records may apply.</p></article>
-        <article class="timeline-card"><div class="time">2026-06-06 00:00 UTC</div><h3>Public safety notices published</h3><p>Evidence may include GitHub, Medium, Bitcointalk, Reddit, YouTube, X, or other public archive links.</p></article>
-        <article class="timeline-card"><div class="time">Post-publication</div><h3>Telegram chat history appears deleted from user side</h3><p>Documented as a timeline update only. The reason cannot be confirmed. Previously preserved evidence remains archived.</p></article>
+        <div class="timeline-card"><div class="time">2026-06-01 05:30 UTC</div><h3>Initial contact or tool discussion</h3><p class="muted">Evidence may include Telegram screenshots, public profile references, or payment discussion records.</p></div>
+        <div class="timeline-card"><div class="time">2026-06-01 07:40 UTC</div><h3>VPS/root or developer access concern</h3><p class="muted">Evidence may include server access discussion, SSH records, GitHub/source access records, or access handover context.</p></div>
+        <div class="timeline-card"><div class="time">2026-06-01 09:20 UTC</div><h3>Tool upload, file changes, or code review event</h3><p class="muted">Evidence may include repository paths, file modification timestamps, code snippets, dashboard logs, or suspicious behavior notes.</p></div>
+        <div class="timeline-card"><div class="time">2026-06-01 11:30 UTC</div><h3>Security rotation and containment</h3><p class="muted">Evidence may include API/RPC key rotation, wallet migration, SSH key removal, password changes, or VPS hardening records.</p></div>
+        <div class="timeline-card"><div class="time">2026-06-06 00:00 UTC</div><h3>Public safety notices published</h3><p class="muted">Evidence may include GitHub, Medium, Bitcointalk, Reddit, X, YouTube, and archive links.</p></div>
+        <div class="timeline-card"><div class="time">2026-06-08 UTC</div><h3>Post-publication monitoring</h3><p class="muted">Related Telegram chat history/messages were reported as appearing deleted from the reporter side while the reported username appeared active. This is documented only as a timeline update; the reason cannot be confirmed.</p></div>
       </div>
     </section>
 
+    <section class="section" id="reappearance">
+      <h2>Possible Reappearance Pattern</h2>
+      <p>This person may attempt to continue selling Solana/Web3 tools under the same identity or a new identity. Future records should be documented only when public evidence exists.</p>
+      <div class="grid2">
+        <div class="box"><div class="label warn">Monitor</div><h3>New Telegram, GitHub, ZIP, private repo, or mirror</h3><p class="muted">Search for repeated README wording, copied screenshots, repeated tool names, reused wallet addresses, matching code structure, or the same sales language.</p></div>
+        <div class="box"><div class="label warn">Do not overclaim</div><h3>Use “possible linked alias” until verified</h3><p class="muted">A similar profile image, similar niche, or similar tooling is not enough by itself. Stronger evidence includes wallet match, code match, README match, Telegram link overlap, or repeated payment flow.</p></div>
+      </div>
+      <div class="callout redcallout"><b>Suggested public wording:</b> Possible linked alias. Not confirmed. This account appears to share similar wallet/code/repository/sales-pattern evidence with the previously reported Soldrift / @devbeast5775 case.</div>
+    </section>
+
     <section class="section" id="checklist">
-      <h2>Before You Buy a Solana Bot, Bundler, Volume Tool, or Memecoin Launch Tool</h2>
-      <p class="muted">Use this checklist before paying any Telegram seller, importing wallets, or granting server access.</p>
+      <h2>Before You Buy a Solana Bot, Bundler Tool, or Pump.fun Launch Tool</h2>
       <div class="checklist">
-        <div class="check"><div class="num">01</div><div>Search the developer name, Telegram handle, GitHub account, wallet address, tool name, and exact README phrases before payment.</div></div>
-        <div class="check"><div class="num">02</div><div>Never enter seed phrases or high-value private keys into unknown tools, dashboards, terminals, or web panels.</div></div>
-        <div class="check"><div class="num">03</div><div>Use fresh test wallets, a clean VPS, disposable API keys, and limited funds for first-run validation.</div></div>
-        <div class="check"><div class="num">04</div><div>Audit outbound network calls, wallet storage paths, hidden API endpoints, local storage, cron jobs, and encoded code.</div></div>
-        <div class="check"><div class="num">05</div><div>Rotate all API, RPC, dashboard, wallet, and server credentials after developer access is removed.</div></div>
-        <div class="check"><div class="num">06</div><div>Check authorized_keys, unknown users, open ports, processes, PM2 entries, modified files, and recently added scripts.</div></div>
+        <div class="check"><div class="num">01</div><div>Search the developer name, Telegram handle, GitHub username, wallet address, repository name, tool name, and repeated README phrases before payment.</div></div>
+        <div class="check"><div class="num">02</div><div>Never enter seed phrases or high-value private keys into unknown tools. Use disposable wallets and limited funds for first-run validation.</div></div>
+        <div class="check"><div class="num">03</div><div>Use a fresh VPS, fresh API/RPC keys, fresh dashboard credentials, and isolated test wallets before production deployment.</div></div>
+        <div class="check"><div class="num">04</div><div>Audit outbound network calls, wallet storage paths, hidden API endpoints, local storage, cron jobs, encoded code, eval, new Function, and webhooks.</div></div>
+        <div class="check"><div class="num">05</div><div>Rotate all API, RPC, dashboard, wallet, and server credentials immediately after developer access is removed.</div></div>
+        <div class="check"><div class="num">06</div><div>Check authorized_keys, unknown users, open ports, PM2 entries, processes, modified files, recently added scripts, and unusual logins.</div></div>
       </div>
     </section>
 
     <section class="section" id="search">
       <h2>Search Keywords for Future Verification</h2>
-      <p class="muted">These search terms are included so future builders can verify whether a seller, repository, or wallet pattern is linked to this public report.</p>
+      <p class="muted">These exact search terms are included to reduce dilution from unrelated Soldrift or Sol Drift brands and to connect the correct identity cluster: <b>soldrift + devbeast5775 + Solana + GitHub + scam/security incident</b>.</p>
       <div class="search-grid">
-        <div class="keyword">soldrift devbeast5775</div><div class="keyword">devbeast5775</div><div class="keyword">soldrift scam</div><div class="keyword">soldrift Solana</div>
-        <div class="keyword">soldrift GitHub</div><div class="keyword">devbeast5775 Telegram</div><div class="keyword">soldrift pumpfun</div><div class="keyword">soldrift bundler</div>
-        <div class="keyword">soldrift volume bot</div><div class="keyword">soldrift wallet</div><div class="keyword">soldrift Solana Developer</div><div class="keyword">devbeast5775 Solana</div>
-        <div class="keyword">soldrift Raydium</div><div class="keyword">soldrift bubblemap</div><div class="keyword">GitHub soldrift scam</div><div class="keyword">Solana developer security incident</div>
+        <div class="keyword">soldrift devbeast5775</div><div class="keyword">devbeast5775</div><div class="keyword">soldrift scam</div><div class="keyword">devbeast5775 scam</div>
+        <div class="keyword">Soldrift / devbeast5775 scam accusation</div><div class="keyword">Soldrift Solana tool security incident</div><div class="keyword">GitHub soldrift Solana</div><div class="keyword">Telegram devbeast5775</div>
+        <div class="keyword">soldrift GitHub</div><div class="keyword">soldrift Solana Developer</div><div class="keyword">soldrift pumpfun</div><div class="keyword">soldrift bundler</div>
+        <div class="keyword">soldrift volume bot</div><div class="keyword">soldrift wallet</div><div class="keyword">soldrift Raydium</div><div class="keyword">soldrift bubblemap</div>
+        <div class="keyword">site:github.com soldrift</div><div class="keyword">site:bitcointalk.org soldrift</div><div class="keyword">site:reddit.com soldrift</div><div class="keyword">site:t.me devbeast5775</div>
       </div>
+      <div class="anchorbox"><b>Recommended anchor text for external links:</b><br>Soldrift / devbeast5775 Solana Tool Safety Report · Soldrift devbeast5775 scam accusation and wallet-flow evidence · GitHub soldrift / Telegram devbeast5775 public safety notice.</div>
     </section>
 
     <section class="section" id="updates">
       <h2>Updates & Monitoring Log</h2>
       <div class="grid">
-        <div class="box"><div class="label">Update Template</div><h3>GitHub profile or repository change</h3><p class="muted">Record UTC date, screenshot, what changed, and why it matters. Do not speculate beyond evidence.</p></div>
-        <div class="box"><div class="label">Update Template</div><h3>New related handle, repo, README phrase, wallet, or public reference found</h3><p class="muted">Use “possible linked alias” only when supporting evidence exists. Do not publish unrelated personal information.</p></div>
-        <div class="box"><div class="label">Update Template</div><h3>Public evidence mirrored or archived</h3><p class="muted">Add GitHub, forum, article, video, archive, Reddit, or search reference with clear context.</p></div>
+        <div class="box"><div class="label">Update Template</div><h3>Dedicated identifier index added</h3><p class="muted">Use when a new exact-match page, sitemap entry, Search Console request, or identifier index is published.</p></div>
+        <div class="box"><div class="label">Update Template</div><h3>New related handle, repo, README phrase, wallet, or public reference found</h3><p class="muted">Document only public evidence. Use “possible linked alias” until wallet/code/repository/sales-pattern evidence is strong enough.</p></div>
+        <div class="box"><div class="label">Update Template</div><h3>Public evidence mirrored or archived</h3><p class="muted">Add GitHub, Bitcointalk, Reddit, Medium, archive, video, or search references with clear context.</p></div>
       </div>
     </section>
 
-    <section class="section">
+    <section class="section" id="policy">
       <h2>Site Policy</h2>
       <p>This page is for public safety and technical documentation. It is not a call for harassment, threats, doxxing, brigading, spam, or personal attacks.</p>
       <p>Private keys, seed phrases, passwords, API keys, real-world personal information, unrelated personal accounts, and unrelated private conversations should never be published.</p>
-      <div class="tagrow">
-        <span class="pill">Search before you send SOL</span><span class="pill">No audit, no keys</span><span class="pill">Root access is not trust</span><span class="pill">Private key in tool = danger</span><span class="pill">Telegram seller ≠ verified developer</span><span class="pill">Public evidence protects the next user</span>
-      </div>
+      <div class="tags"><span class="pill">Search before you send SOL</span><span class="pill">No audit, no keys</span><span class="pill">Root access is not trust</span><span class="pill">Private key in tool = danger</span><span class="pill">Telegram seller ≠ verified developer</span><span class="pill">Public evidence protects the next user</span></div>
     </section>
 
     <footer class="footer">
@@ -281,17 +214,8 @@
       <div class="mini">UTC timeline · No doxxing · No threats · No harassment · Evidence only</div>
     </footer>
   </main>
-
   <script>
-    document.querySelectorAll('.copy').forEach(el=>{
-      el.title='Click to copy';
-      el.addEventListener('click', async()=>{
-        try{ await navigator.clipboard.writeText(el.dataset.copy || el.textContent.trim());
-          const old=el.textContent; el.textContent='Copied: '+(el.dataset.copy || old).slice(0,12)+'...';
-          setTimeout(()=>{el.textContent=old},1200);
-        }catch(e){}
-      });
-    });
+    document.querySelectorAll('.copy').forEach(el=>{el.title='Click to copy';el.addEventListener('click',async()=>{try{const v=el.dataset.copy||el.textContent.trim();await navigator.clipboard.writeText(v);const old=el.textContent;el.textContent='Copied: '+v.slice(0,12)+'...';setTimeout(()=>{el.textContent=old},1300)}catch(e){}})});
   </script>
 </body>
 </html>
