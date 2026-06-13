@@ -4,10 +4,12 @@ This old Soldrift / devbeast5775 report repository has moved to the new official
 
 New report hub:
 
-https://soldrift-devbeast5775-warning.github.io/solana-scam-osint-report/
+https://soldrift-scam-warning.github.io/solana-scam-osint-report/
 
 New GitHub repository:
 
-https://github.com/soldrift-devbeast5775-warning/solana-scam-osint-report
+https://github.com/soldrift-scam-warning/solana-scam-osint-report
 
 This old repository is kept only as a public transition notice to avoid duplicate report pages.
+
+Search engines should follow the new official report hub and treat this repository as an archived transition page only.
